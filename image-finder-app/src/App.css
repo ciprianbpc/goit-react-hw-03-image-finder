@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.searchbar {
+  padding: 20px;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.form {
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button-load-more {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
